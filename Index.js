@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const port = 3000; // You can choose any port you prefer
+const port = process.env.port || 6000; // You can choose any port you prefer
 
 // Define dummy data for user analytics
 const userInfo = [
